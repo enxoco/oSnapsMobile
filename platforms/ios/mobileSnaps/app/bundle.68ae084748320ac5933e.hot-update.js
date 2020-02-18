@@ -1,0 +1,20 @@
+webpackHotUpdate("bundle",{
+
+/***/ "./views/retrieveSecret/retrieveSecret-page.xml":
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {
+module.exports = "<Page xmlns=\"http://www.nativescript.org/tns.xsd\" loaded=\"loaded\">\n    <Page.actionBar>\n        <ActionBar title=\"oSnap\" />\n    </Page.actionBar>\n\n\n    <FlexboxLayout>\n\n        <StackLayout class=\"form\">\n            <Label text=\"Enter the code in the box below to retrieve your secret message.  Please note that once this message is retrieved once it is deleted forever!\" textWrap=\"true\" />\n\n            <TextField id=\"pin\" marginTop=\"15px\" borderColor=\"#DEDEDE\" backgroundColor=\"#f0f0f0\"\n                borderWidth=\"1\" hint=\"Enter Pin\" text=\"{{ pin }}\" class=\"input input-border\"></TextField>\n                            <TextView id=\"message\" text=\"{{ secret }}\" textWrap=\"true\" height=\"50%\" visibility=\"{{ showDetails ? 'visible' : 'collapsed' }}\" />\n\n            <Button text=\"Retreive Secret\" class=\"btn btn-primary\"\n                tap=\"retrieveSecret\" />\n        </StackLayout>\n    </FlexboxLayout>\n</Page>"; 
+if ( true && global._isModuleLoadedForUI && global._isModuleLoadedForUI("./views/retrieveSecret/retrieveSecret-page.xml") ) {
+    
+    module.hot.accept();
+    module.hot.dispose(() => {
+        global.hmrRefresh({ type: "markup", path: "./views/retrieveSecret/retrieveSecret-page.xml" });
+    });
+} 
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__("../node_modules/webpack/buildin/global.js")))
+
+/***/ })
+
+})
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi92aWV3cy9yZXRyaWV2ZVNlY3JldC9yZXRyaWV2ZVNlY3JldC1wYWdlLnhtbCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7QUFDQSx5bEJBQXlsQixPQUFPLDRHQUE0RyxVQUFVLG1EQUFtRCx5Q0FBeUMsbUw7QUFDbHpCLElBQUksS0FBVTs7QUFFZDtBQUNBO0FBQ0EsMkJBQTJCLHlFQUF5RTtBQUNwRyxLQUFLO0FBQ0wsQyIsImZpbGUiOiJidW5kbGUuNjhhZTA4NDc0ODMyMGFjNTkzM2UuaG90LXVwZGF0ZS5qcyIsInNvdXJjZXNDb250ZW50IjpbIlxubW9kdWxlLmV4cG9ydHMgPSBcIjxQYWdlIHhtbG5zPVxcXCJodHRwOi8vd3d3Lm5hdGl2ZXNjcmlwdC5vcmcvdG5zLnhzZFxcXCIgbG9hZGVkPVxcXCJsb2FkZWRcXFwiPlxcbiAgICA8UGFnZS5hY3Rpb25CYXI+XFxuICAgICAgICA8QWN0aW9uQmFyIHRpdGxlPVxcXCJvU25hcFxcXCIgLz5cXG4gICAgPC9QYWdlLmFjdGlvbkJhcj5cXG5cXG5cXG4gICAgPEZsZXhib3hMYXlvdXQ+XFxuXFxuICAgICAgICA8U3RhY2tMYXlvdXQgY2xhc3M9XFxcImZvcm1cXFwiPlxcbiAgICAgICAgICAgIDxMYWJlbCB0ZXh0PVxcXCJFbnRlciB0aGUgY29kZSBpbiB0aGUgYm94IGJlbG93IHRvIHJldHJpZXZlIHlvdXIgc2VjcmV0IG1lc3NhZ2UuICBQbGVhc2Ugbm90ZSB0aGF0IG9uY2UgdGhpcyBtZXNzYWdlIGlzIHJldHJpZXZlZCBvbmNlIGl0IGlzIGRlbGV0ZWQgZm9yZXZlciFcXFwiIHRleHRXcmFwPVxcXCJ0cnVlXFxcIiAvPlxcblxcbiAgICAgICAgICAgIDxUZXh0RmllbGQgaWQ9XFxcInBpblxcXCIgbWFyZ2luVG9wPVxcXCIxNXB4XFxcIiBib3JkZXJDb2xvcj1cXFwiI0RFREVERVxcXCIgYmFja2dyb3VuZENvbG9yPVxcXCIjZjBmMGYwXFxcIlxcbiAgICAgICAgICAgICAgICBib3JkZXJXaWR0aD1cXFwiMVxcXCIgaGludD1cXFwiRW50ZXIgUGluXFxcIiB0ZXh0PVxcXCJ7eyBwaW4gfX1cXFwiIGNsYXNzPVxcXCJpbnB1dCBpbnB1dC1ib3JkZXJcXFwiPjwvVGV4dEZpZWxkPlxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8VGV4dFZpZXcgaWQ9XFxcIm1lc3NhZ2VcXFwiIHRleHQ9XFxcInt7IHNlY3JldCB9fVxcXCIgdGV4dFdyYXA9XFxcInRydWVcXFwiIGhlaWdodD1cXFwiNTAlXFxcIiB2aXNpYmlsaXR5PVxcXCJ7eyBzaG93RGV0YWlscyA/ICd2aXNpYmxlJyA6ICdjb2xsYXBzZWQnIH19XFxcIiAvPlxcblxcbiAgICAgICAgICAgIDxCdXR0b24gdGV4dD1cXFwiUmV0cmVpdmUgU2VjcmV0XFxcIiBjbGFzcz1cXFwiYnRuIGJ0bi1wcmltYXJ5XFxcIlxcbiAgICAgICAgICAgICAgICB0YXA9XFxcInJldHJpZXZlU2VjcmV0XFxcIiAvPlxcbiAgICAgICAgPC9TdGFja0xheW91dD5cXG4gICAgPC9GbGV4Ym94TGF5b3V0PlxcbjwvUGFnZT5cIjsgXG5pZiAobW9kdWxlLmhvdCAmJiBnbG9iYWwuX2lzTW9kdWxlTG9hZGVkRm9yVUkgJiYgZ2xvYmFsLl9pc01vZHVsZUxvYWRlZEZvclVJKFwiLi92aWV3cy9yZXRyaWV2ZVNlY3JldC9yZXRyaWV2ZVNlY3JldC1wYWdlLnhtbFwiKSApIHtcbiAgICBcbiAgICBtb2R1bGUuaG90LmFjY2VwdCgpO1xuICAgIG1vZHVsZS5ob3QuZGlzcG9zZSgoKSA9PiB7XG4gICAgICAgIGdsb2JhbC5obXJSZWZyZXNoKHsgdHlwZTogXCJtYXJrdXBcIiwgcGF0aDogXCIuL3ZpZXdzL3JldHJpZXZlU2VjcmV0L3JldHJpZXZlU2VjcmV0LXBhZ2UueG1sXCIgfSk7XG4gICAgfSk7XG59ICJdLCJzb3VyY2VSb290IjoiIn0=

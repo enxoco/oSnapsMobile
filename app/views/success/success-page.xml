@@ -1,0 +1,18 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="loaded">
+    <Page.actionBar>
+        <ActionBar title="Secret Message Code" />
+    </Page.actionBar>
+    <FlexboxLayout>
+        <StackLayout class="form">
+            <!-- <Image src="~/images/logo.png" /> -->
+
+            <Label text="{{ user.status }}" />
+            <TextView id="email" style="margin-top: 15px"
+                borderColor="#DEDEDE" borderWidth="1" height="200px"
+                hint="Enter Note" returnKeyType="send"
+                class="input input-border"></TextView>
+            <Button text="Generate new secret message"
+                tap="onLoginButtonTap" />
+        </StackLayout>
+    </FlexboxLayout>
+</Page>

@@ -1,0 +1,20 @@
+webpackHotUpdate("bundle",{
+
+/***/ "./views/generateSecret/generateSecret-page.xml":
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {
+module.exports = "<Page xmlns=\"http://www.nativescript.org/tns.xsd\" loaded=\"loaded\">\n    <Page.actionBar>\n        <ActionBar title=\"oSNap\" />\n    </Page.actionBar>\n\n\n    <FlexboxLayout>\n\n        <StackLayout class=\"form\">\n            <Label id=\"status\" text=\"{{ status }}\" textWrap=\"true\" visibility=\"{{ showDetails ? 'visible' : 'collapsed' }}\" />\n            <Button id=\"copyClipboard\" text=\"copy to clipboard\" tap=\"copyText\" visibility=\"{{ showDetails ? 'visible' : 'collapsed' }}\"/>\n            <TextView id=\"email\" marginTop=\"15px\" borderColor=\"#DEDEDE\" backgroundColor=\"#f0f0f0\"\n                borderWidth=\"1\" height=\"200px\" hint=\"Enter Note\"\n                returnKeyType=\"send\" class=\"input input-border\"></TextView>\n            <Button text=\"Generate Secret\" class=\"btn btn-primary\"\n                tap=\"signIn\" />\n                <Button text=\"Home\" tap=\"goHome\" class=\"fixed-bottom\" />\n        </StackLayout>\n    </FlexboxLayout>\n    \n</Page>"; 
+if ( true && global._isModuleLoadedForUI && global._isModuleLoadedForUI("./views/generateSecret/generateSecret-page.xml") ) {
+    
+    module.hot.accept();
+    module.hot.dispose(() => {
+        global.hmrRefresh({ type: "markup", path: "./views/generateSecret/generateSecret-page.xml" });
+    });
+} 
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__("../node_modules/webpack/buildin/global.js")))
+
+/***/ })
+
+})
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi92aWV3cy9nZW5lcmF0ZVNlY3JldC9nZW5lcmF0ZVNlY3JldC1wYWdlLnhtbCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7QUFDQSx5UkFBeVIsVUFBVSxvQ0FBb0MseUNBQXlDLDJHQUEyRyx5Q0FBeUMsa2dCO0FBQ3BnQixJQUFJLEtBQVU7O0FBRWQ7QUFDQTtBQUNBLDJCQUEyQix5RUFBeUU7QUFDcEcsS0FBSztBQUNMLEMiLCJmaWxlIjoiYnVuZGxlLjQwZGIzMzM5NzJiNjA1MzI3YzZmLmhvdC11cGRhdGUuanMiLCJzb3VyY2VzQ29udGVudCI6WyJcbm1vZHVsZS5leHBvcnRzID0gXCI8UGFnZSB4bWxucz1cXFwiaHR0cDovL3d3dy5uYXRpdmVzY3JpcHQub3JnL3Rucy54c2RcXFwiIGxvYWRlZD1cXFwibG9hZGVkXFxcIj5cXG4gICAgPFBhZ2UuYWN0aW9uQmFyPlxcbiAgICAgICAgPEFjdGlvbkJhciB0aXRsZT1cXFwib1NOYXBcXFwiIC8+XFxuICAgIDwvUGFnZS5hY3Rpb25CYXI+XFxuXFxuXFxuICAgIDxGbGV4Ym94TGF5b3V0PlxcblxcbiAgICAgICAgPFN0YWNrTGF5b3V0IGNsYXNzPVxcXCJmb3JtXFxcIj5cXG4gICAgICAgICAgICA8TGFiZWwgaWQ9XFxcInN0YXR1c1xcXCIgdGV4dD1cXFwie3sgc3RhdHVzIH19XFxcIiB0ZXh0V3JhcD1cXFwidHJ1ZVxcXCIgdmlzaWJpbGl0eT1cXFwie3sgc2hvd0RldGFpbHMgPyAndmlzaWJsZScgOiAnY29sbGFwc2VkJyB9fVxcXCIgLz5cXG4gICAgICAgICAgICA8QnV0dG9uIGlkPVxcXCJjb3B5Q2xpcGJvYXJkXFxcIiB0ZXh0PVxcXCJjb3B5IHRvIGNsaXBib2FyZFxcXCIgdGFwPVxcXCJjb3B5VGV4dFxcXCIgdmlzaWJpbGl0eT1cXFwie3sgc2hvd0RldGFpbHMgPyAndmlzaWJsZScgOiAnY29sbGFwc2VkJyB9fVxcXCIvPlxcbiAgICAgICAgICAgIDxUZXh0VmlldyBpZD1cXFwiZW1haWxcXFwiIG1hcmdpblRvcD1cXFwiMTVweFxcXCIgYm9yZGVyQ29sb3I9XFxcIiNERURFREVcXFwiIGJhY2tncm91bmRDb2xvcj1cXFwiI2YwZjBmMFxcXCJcXG4gICAgICAgICAgICAgICAgYm9yZGVyV2lkdGg9XFxcIjFcXFwiIGhlaWdodD1cXFwiMjAwcHhcXFwiIGhpbnQ9XFxcIkVudGVyIE5vdGVcXFwiXFxuICAgICAgICAgICAgICAgIHJldHVybktleVR5cGU9XFxcInNlbmRcXFwiIGNsYXNzPVxcXCJpbnB1dCBpbnB1dC1ib3JkZXJcXFwiPjwvVGV4dFZpZXc+XFxuICAgICAgICAgICAgPEJ1dHRvbiB0ZXh0PVxcXCJHZW5lcmF0ZSBTZWNyZXRcXFwiIGNsYXNzPVxcXCJidG4gYnRuLXByaW1hcnlcXFwiXFxuICAgICAgICAgICAgICAgIHRhcD1cXFwic2lnbkluXFxcIiAvPlxcbiAgICAgICAgICAgICAgICA8QnV0dG9uIHRleHQ9XFxcIkhvbWVcXFwiIHRhcD1cXFwiZ29Ib21lXFxcIiBjbGFzcz1cXFwiZml4ZWQtYm90dG9tXFxcIiAvPlxcbiAgICAgICAgPC9TdGFja0xheW91dD5cXG4gICAgPC9GbGV4Ym94TGF5b3V0PlxcbiAgICBcXG48L1BhZ2U+XCI7IFxuaWYgKG1vZHVsZS5ob3QgJiYgZ2xvYmFsLl9pc01vZHVsZUxvYWRlZEZvclVJICYmIGdsb2JhbC5faXNNb2R1bGVMb2FkZWRGb3JVSShcIi4vdmlld3MvZ2VuZXJhdGVTZWNyZXQvZ2VuZXJhdGVTZWNyZXQtcGFnZS54bWxcIikgKSB7XG4gICAgXG4gICAgbW9kdWxlLmhvdC5hY2NlcHQoKTtcbiAgICBtb2R1bGUuaG90LmRpc3Bvc2UoKCkgPT4ge1xuICAgICAgICBnbG9iYWwuaG1yUmVmcmVzaCh7IHR5cGU6IFwibWFya3VwXCIsIHBhdGg6IFwiLi92aWV3cy9nZW5lcmF0ZVNlY3JldC9nZW5lcmF0ZVNlY3JldC1wYWdlLnhtbFwiIH0pO1xuICAgIH0pO1xufSAiXSwic291cmNlUm9vdCI6IiJ9

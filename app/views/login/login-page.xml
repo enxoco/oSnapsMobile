@@ -1,0 +1,21 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="loaded">
+    <Page.actionBar>
+        <ActionBar title="oSNap" />
+    </Page.actionBar>
+
+
+    <FlexboxLayout>
+
+        <StackLayout class="form">
+            <Label class="app-heading"
+                text="Retrieve A self destructing message, or create a new one"
+                textWrap="true"/>
+
+            <Button text="Generate Secret" class="btn btn-primary"
+                tap="showGenerateSecret" />
+
+            <Button text="Retrieve Secret" class="btn btn-primary"
+                tap="showRetrieveSecret" />
+        </StackLayout>
+    </FlexboxLayout>
+</Page>
