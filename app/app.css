@@ -1,3 +1,28 @@
 .test {
     color: green;
 }
+.btn-primary {
+    background-color: #CB1D00;
+    margin-left: 0;
+    margin-right: 0;
+    height: 100px;
+    border-radius: 25%;
+    font-size: 22px;
+  }
+  FlexboxLayout {
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    /* background-image: url("~/images/openSuiteMobile.jpg"); */
+  }
+  StackLayout {
+    width: 400;
+    padding: 10 16;
+  }
+
+  .btn-green {
+    background-color: #4cd136;
+  }
+  .btn-dark {
+    background-color: #3f3c56;
+  }

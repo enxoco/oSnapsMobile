@@ -8,7 +8,8 @@ var observableModule = require("tns-core-modules/data/observable");
 var user = new observableModule.fromObject({
     status: "",
     secret: "Enter Secret here",
-    showDetails: false
+    showDetails: false,
+    moveLeft: false
 });
 var clipboard = require("nativescript-clipboard");
 
@@ -50,6 +51,7 @@ const generatePage = {
         }};
 
 exports.showGenerateSecret = function(args) {
+    user.moveLeft = true
     user.showDetails = false
     frameModule.Frame.topmost().navigate(generatePage);
 }  

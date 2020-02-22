@@ -20,6 +20,7 @@ const modalViewModule = "views/success/success-page";
 function copyText(args){
 
     clipboard.setText(user.status).then(function() {
+        page.getViewById('copyClipboard').text = "Copied Successfully!"
         console.log("OK, copied to the clipboard");
     })
 }

@@ -2,19 +2,19 @@
     <Page.actionBar>
         <ActionBar title="oSNap" />
     </Page.actionBar>
-
-
     <FlexboxLayout>
 
         <StackLayout class="form">
+                        <Image class="r" src="~/images/logo.png" height="200" width="200" />
+
             <Label class="app-heading"
-                text="Retrieve A self destructing message, or create a new one"
+                text="Choose an option below to get started"
                 textWrap="true"/>
 
-            <Button text="Generate Secret" class="btn btn-primary"
+            <Button text="Generate Secret" class="btn btn-primary btn-green"
                 tap="showGenerateSecret" />
 
-            <Button text="Retrieve Secret" class="btn btn-primary"
+            <Button text="Retrieve Secret" class="btn btn-primary btn-dark"
                 tap="showRetrieveSecret" />
         </StackLayout>
     </FlexboxLayout>

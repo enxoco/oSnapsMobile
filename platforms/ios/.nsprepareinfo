@@ -1,7 +1,8 @@
 {
-	"time": "",
-	"nativePlatformStatus": "1",
+	"time": "Sat Feb 22 2020 10:02:54 GMT-0500 (Eastern Standard Time)",
+	"nativePlatformStatus": "3",
+	"release": false,
 	"changesRequireBuild": true,
-	"projectFileHash": "e5d04a2404997b9d447533c71e0fb4c18e2954fc3b13995003fba9e7d7b57d3e",
-	"changesRequireBuildTime": null
+	"projectFileHash": "484a849d4f8eb287bde0347a8b40e5424fa11bd8d68a0eca8211a1de646f25fa",
+	"changesRequireBuildTime": "Sat Feb 22 2020 10:02:54 GMT-0500 (Eastern Standard Time)"
 }
